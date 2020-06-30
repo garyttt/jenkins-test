@@ -1,8 +1,5 @@
 node() {
-
-stage("Checkout Code") {
-  checkout scm
-  notifyStash();
-}
-
+  stage('HelloWorld') {
+    echo 'Hello World'
+  }
 }
